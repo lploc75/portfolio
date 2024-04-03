@@ -1,0 +1,108 @@
+.carousel-item img {
+    height: 500px;
+    width: 700px;
+}
+
+#carouselExample {
+    margin-bottom: 20px;
+}
+
+#navheader {
+    position: sticky;
+    top: 0;
+    /* Cho phần tử 'đính' ở đầu trang khi scroll */
+    background-color: cadetblue;
+    margin-bottom: 20px;
+    z-index: 100;
+    /* Để phần tử 'đính' trên top của các phần khác */
+}
+
+/* Navbar */
+.navbar {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-right: 20px;
+}
+
+.navbar .nav-links li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+}
+
+.navbar .nav-links li a:hover {
+    color: #007bff;
+}
+
+
+#socialNetwork {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.portfolio-text {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.portfolio-port {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    /* Điều chỉnh kích thước của chữ "Port" */
+}
+
+.portfolio-folio {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    /* Điều chỉnh kích thước của chữ "Folio" */
+}
+
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#paragraph {
+    margin-bottom: 20px;
+}
+
+.img-zoomable {
+    cursor: pointer;
+}
